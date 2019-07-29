@@ -364,7 +364,6 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 }
 
 
-
 @keyframes fade{
     0%{
         opacity: 0;
@@ -759,10 +758,12 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
   
   .bgc{
       color: #222930;
+      text-decoration-line: none;
   }
 
   @media only screen and (max-width: 600px) {
     
+
     .page{
         padding: 20px;
         margin: 10px 20px;
