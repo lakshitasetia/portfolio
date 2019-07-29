@@ -6,7 +6,7 @@
 }
 
 .text{
-    font-size: 23px;;
+    font-size: 23px;
     text-align: center;
     color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -120,8 +120,20 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     animation-name: fade;
 }
 
+.fadeinup{
+    animation-name: fadeinup;
+}
+
+.fadeinright{
+    animation-name: fadeinright;
+}
+
 .animated.delay{
-    animation-delay: .1s;
+    animation-delay: .5s;
+}
+
+.animated.delay05{
+    animation-delay: .3s;
 }
 
 .head2{
@@ -346,6 +358,10 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     
 }
 
+.icontext{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
 @keyframes fade{
     0%{
         opacity: 0;
@@ -358,6 +374,31 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     }
 }
 
+
+@keyframes fadeinup{
+    0%{
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateZ(0);
+    }
+    
+}
+
+@keyframes fadeinright{
+    0% {
+        opacity: 0;
+        transform: translate3d(100%,0,0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateZ(0);
+
+    }
+}
 
 @media screen and (min-width: 600px) {
     body {
