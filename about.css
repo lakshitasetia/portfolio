@@ -719,11 +719,11 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
       font-size: 62.5%;
     }
 
-    :root{
+    /* :root{
         --menuCircleSize: 180px;
         --menuHamburgerWidth: 48px;
     --menuHamburgerHeight: 40px;
-    }
+    } */
   }
   
   @media (max-width: 767px){
@@ -731,12 +731,12 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     html{
       font-size: 50%;
     }
-
+/* 
     :root{
         --menuCircleSize: 180px;
         --menuHamburgerWidth: 48px;
     --menuHamburgerHeight: 40px;
-    }
+    } */
   }
   
   /* body{
@@ -759,4 +759,30 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
   
   .bgc{
       color: #222930;
+  }
+
+  @media only screen and (max-width: 600px) {
+    
+    .page{
+        padding: 20px;
+        margin: 10px 20px;
+
+    }
+
+    .heading{
+        font-size: 37px;
+    }
+    .text{
+        font-size: 18px;
+
+    }
+
+    .head1{
+        font-size: 25px;
+        padding: 0px 20px 10px 25px;
+    }
+
+    .head2{
+        font-size: 20px;
+    }
   }
