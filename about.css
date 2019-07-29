@@ -129,11 +129,11 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 }
 
 .animated.delay{
-    animation-delay: .5s;
+    animation-delay: .3s;
 }
 
 .animated.delay05{
-    animation-delay: .3s;
+    animation-delay: .6s;
 }
 
 .head2{
