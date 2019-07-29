@@ -717,6 +717,12 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     html{
       font-size: 62.5%;
     }
+
+    :root{
+        --menuCircleSize: 180px;
+        --menuHamburgerWidth: 48px;
+    --menuHamburgerHeight: 40px;
+    }
   }
   
   @media (max-width: 767px){
