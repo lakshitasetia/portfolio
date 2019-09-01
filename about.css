@@ -453,12 +453,12 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     }
 }
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
     body {
       background-color: #222930;
     }
 
-}
+} */
 
 
 
@@ -815,11 +815,11 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
   @media only screen and (max-width: 600px) {
     
 
-    .page{
+    /* .page{
         padding: 20px;
         margin: 10px 20px;
 
-    }
+    } */
 
     .heading{
         font-size: 37px;
