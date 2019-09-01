@@ -1,9 +1,61 @@
+
 .page{
     background-color: #222930;
     text-align: center;
-    margin: 16px 20px;
-    padding: 100px;
+    /* margin: 16px 20px; */
+    /* padding: 100px; */
 }
+
+#main-head{
+    float: right;
+    
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    /* opacity: 0.80; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.pimg1{
+
+    background-image: url('../icons/front.jpg');
+    height: 100%;
+    width: 100%;
+
+}
+
+.pimg2{
+
+    background-image: url('../icons/mid.jpg');
+    height: 100%;
+    width: 100%;
+
+}
+
+.dp{
+    border-radius: 50%;
+    float: right;
+    object-fit: contain;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+    font-weight: bold;
+    font-size: 2em;
+
+}
+
+.section-dark{
+    background-color: #282e34;
+    color:#ddd;
+}
+
 
 .text{
     font-size: 23px;
@@ -194,7 +246,6 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 
 .resume_button{
     display: flex;
-    margin-top: 24px;
     border: 1px;
     -webkit-box-pack: center;
     justify-content: center;
