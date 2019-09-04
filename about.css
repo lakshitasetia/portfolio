@@ -6,16 +6,24 @@
     /* padding: 100px; */
 }
 
+.showit{
+    display: none;
+}
+
 #main-head{
     float: right;
     
+}
+
+.carousel-inner img{
+    margin: auto;
 }
 
 .pimg1, .pimg2{
     position: relative;
     /* opacity: 0.80; */
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -32,14 +40,19 @@
 .pimg2{
 
     background-image: url('../icons/mid.jpg');
-    max-height: 100%;
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
 
 }
 
 .dp{
     border-radius: 50%;
     float: right;
+    object-fit: contain;
+}
+
+.dpm{
+    border-radius: 50%;
     object-fit: contain;
 }
 
@@ -73,7 +86,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
     text-align: center;  
-    padding: 170px 400px;    
+    height: 100%;
+    width: 100%; 
     color: #222930;
     line-height: 1.2;
     opacity: 0.85;
@@ -775,12 +789,28 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
   =====
   */
   
-  @media (min-width: 768px){
+  @media (max-width: 768px){
   
     html{
-      font-size: 62.5%;
+      font-size: 50%;
     }
 
+    .pimg1 { 
+        background-image: none;
+       
+    }
+
+    .pimg2{
+        background-image: none;
+    }
+    
+    .hideit{
+        display: none;
+    }
+
+    .showit{
+        display: contents;
+    }
     /* :root{
         --menuCircleSize: 180px;
         --menuHamburgerWidth: 48px;
@@ -788,18 +818,16 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     } */
   }
   
-  @media (max-width: 767px){
-  
-    html{
-      font-size: 50%;
-    }
+
+
+
 /* 
     :root{
         --menuCircleSize: 180px;
         --menuHamburgerWidth: 48px;
     --menuHamburgerHeight: 40px;
     } */
-  }
+  
   
   /* body{
     display: flex;
@@ -824,42 +852,7 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
       text-decoration-line: none;
   }
 
-  @media only screen and (max-width: 600px) {
+ 
     
 
-    /* .page{
-        padding: 20px;
-        margin: 10px 20px;
-
-    } */
-
-    .heading{
-        font-size: 37px;
-    }
-    .text{
-        font-size: 15px;
-
-    }
-
-    .head1{
-        font-size: 25px;
-        padding: 0px 20px 10px 25px;
-    }
-
-    .head2{
-        font-size: 20px;
-    }
-
-   
-/* 
-    .mid-text{
-
-        font-weight: bold;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 15px;
-        text-align: center;  
-        padding: 170px 400px;  
-        color: #222930;
-        line-height: 1.2;
-    } */
-  }
+  
