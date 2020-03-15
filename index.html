@@ -15,7 +15,7 @@
             <!-- <li><a href="#about">About</a></li> -->
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-            <!-- <li><a href="#passion">Passion</a></li> -->
+            <li><a href="#passion">Passion</a></li>
             <li><a href="#contact">Hire me</a></li>
         </ul>
     </header>
@@ -26,9 +26,11 @@
 
        <section class="text section" id="about">
             <div><img class="img_about" src="./icons/profile.JPG"></div>
-            <div class="text">I am a Computer Science student still crossing my final year and a tech enthusiast who loves to play around with emerging technologies. <br>
-                I also enjoy reading, listening to motivational talks, meeting new people who inspire me and my latest addiction is a book by Vexking, "Good Vibes, Good Life"<br>
-                Currently, I'm open for new opportunities and to know more about me, navigate through the tabs below or<br>
+            <div class="text">I am a tech enthusiast working at Fidelity International as a Graduate Programmer
+                 who loves to play around with emerging technologies. <br>
+                I read computer science literature constantly and love to meet people who inspire me to do better.
+                <br>
+                To know more about me, navigate through the tabs below!<br>
             </div>
             <div class="resume_button">
                 <a style="color:#ff5851; margin: 10px; padding: 15px 10px; border: solid #ff5851 1px; text-decoration: none;" href="Resume.pdf" target="_blank">Download My Resume</a>
@@ -82,6 +84,18 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class= "skill_list_icon text-center">
+                                    <div>
+                                        <div title="Java">
+                                            <div class="sprite sprite-java"></div>
+                                            <span class="icontext">Java</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+
+
                                 <div class= "skill_list_icon text-center">
                                         <div>
                                             <div title="C++">
@@ -184,6 +198,26 @@
                                     </div>
                                 </div>
                         </div>
+
+                        <div class= "skill_list_icon text-center">
+                            <div>
+                                <div title="Eclipse">
+                                    <div class="sprite sprite-eclipse"></div>
+                                    <span class="icontext">Eclipse</span>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class= "skill_list_icon text-center">
+                        <div>
+                            <div title="Neo4j">
+                                <div class="sprite sprite-neo4j"></div>
+                                <span class="icontext">Neo4j</span>
+                            </div>
+                        </div>
+                </div>
+
+
                         
                     </div>
                    
@@ -196,115 +230,94 @@
                 <div class="tabs">
                     <div class="tab">
                         <input type="radio" id="rd1" name="rd">
-                        <label class="tab-label" for="rd1">Chatbot using socket.io</label>
+                        <label class="tab-label" for="rd1">Imbued: The Mental Health App</label>
+                        <div class="tab-content">
+                            This is a web application that provides podcasts, meditation themes, 
+                            blogs and a test based on which it gives users
+                            an analysis about their mental health. 
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <input type="radio" id="rd2" name="rd">
+                        <label class="tab-label" for="rd2">Web Search using GraphDB</label>
+                        <div class="tab-content">
+                           A website that provides search results fetching data from the Graph database using Neo4j (an open source software)
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <input type="radio" id="rd3" name="rd">
+                        <label class="tab-label" for="rd3">Chatbot using socket.io</label>
                         <div class="tab-content">
                             A basic chat application with Socket.IO which lets two or more people communicate two ways with the help of web sockets.
                         </div>
                     </div>
                     <div class="tab">
-                        <input type="radio" id="rd2" name="rd">
-                        <label class="tab-label" for="rd2">Parallax web page</label>
+                        <input type="radio" id="rd4" name="rd">
+                        <label class="tab-label" for="rd4">Parallax web page</label>
                         <div class="tab-content">
                             Parallax scrolling is when the website layout sees the background of the web page moving at a slower rate to the foreground, creating a 3D effect. 
                             It provides subtle element of depth that results in a distinctive and memorable website. 
                         </div>
                     </div>
                     <div class="tab">
-                        <input type="radio" id="rd3" name="rd">
-                        <label class="tab-label" for="rd3">Low-fi and High-fi prototype building (Hackathon IIITD)</label>
+                        <input type="radio" id="rd5" name="rd">
+                        <label class="tab-label" for="rd5">Low-fi and High-fi prototype building (Hackathon IIITD)</label>
                         <div class="tab-content">
                             Prototype building on proto.io, a user persona and finally a web application that helps deal with addiction, provides analysis based on DASS test for those dealing anxiety, depression and stress. It also provides solutions, articles, blogs and a personal assistant who helps you get the right information.
                         </div>
                     </div>
                     <div class="tab">
-                        <input type="radio" id="rd4" name="rd">
-                        <label class="tab-label" for="rd4">Progressive Web Application</label>
+                        <input type="radio" id="rd6" name="rd">
+                        <label class="tab-label" for="rd6">Progressive Web Application</label>
                         <div class="tab-content">
                             A new level of quality application that is earning a place on the user's homescreen such as this app.
                         </div>
                     </div>
                     <div class="tab">
-                        <input type="radio" id="rd5" name="rd">
-                        <label for="rd5" class="tab-close">Close others &times;</label>
+                        <input type="radio" id="rd7" name="rd">
+                        <label for="rd7" class="tab-close">Close &times;</label>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- <section class="section-dark" id="passion">
-            <div class="text-head animated delay fadeinup"><b></b><br><br></div>
-            <div class="boxsize">
-            <div class="row r">
-                    <div class="column c">
-                      <img src="./icons/i3.JPG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-                    </div>
-                    <div class="column c">
-                      <img src="./icons/i6.JPG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-                    </div>
-                    <div class="column c">
-                      <img src="./icons/i4.JPG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-                    </div>
-                    <div class="column c">
-                      <img src="./icons/i1.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-                    </div>
-                  </div>
-                  
-                  <div id="myModal" class="modal">
-                    <span class="close cursor" onclick="closeModal()">&times;</span>
-                    <div class="modal-content">
-                  
-                      <div class="mySlides">
-                        <div class="numbertext">1 / 4</div>
-                        <img src="./icons/i3.JPG" style="width:100%">
-                      </div>
-                  
-                      <div class="mySlides">
-                        <div class="numbertext">2 / 4</div>
-                        <img src="./icons/i6.JPG" style="width:100%">
-                      </div>
-                  
-                      <div class="mySlides">
-                        <div class="numbertext">3 / 4</div>
-                        <img src="./icons/i4.JPG" style="width:100%">
-                      </div>
-                      
-                      <div class="mySlides">
-                        <div class="numbertext">4 / 4</div>
-                        <img src="./icons/i1.JPG" style="width:100%">
-                      </div>
-                      
-                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                  
-                      <div class="caption-container">
-                        <p id="caption"></p>
-                      </div>
-                  
-                  
-                      <div class="column c">
-                        <img class="demo cursor" src="./icons/i3.JPG" style="width:100%" onclick="currentSlide(1)">
-                      </div>
-                      <div class="column c">
-                        <img class="demo cursor" src="./icons/i6.JPG" style="width:100%" onclick="currentSlide(2)">
-                      </div>
-                      <div class="column c">
-                        <img class="demo cursor" src="./icons/i4.JPG" style="width:100%" onclick="currentSlide(3)">
-                      </div>
-                      <div class="column c">
-                        <img class="demo cursor" src="./icons/i1.JPG" style="width:100%" onclick="currentSlide(4)">
-                      </div>
-                    </div>
-                    </div>
-                    </div>
+        <section class="section-dark" id="passion">
+            <div class="text-head animated delay fadeinup"><b>PASSION</b><br>
+                <br></div>
+            <!-- Photo Grid -->
+        <div class="passion-row boxsize"> 
+            <div class="passion-column">
+            <img class="passion-img" src="./icons/m1.jpg" style="width:100%">
+            <img class="passion-img" src="./icons/m2.jpg" style="width:100%">
+            <img class="passion-img" src="./icons/m3.jpg" style="width:100%">
+            <img class="passion-img" src="./icons/m4.jpg" style="width:100%">
+            <img class="passion-img" src="./icons/m5.jpg" style="width:100%">
+            </div>
+            <div class="passion-column">
+            <img class="passion-img" src="./icons/m6.jpg" style="width:100%">
+            <img class="passion-img" src="./icons/m7.jpg" style="width:100%">
+            <img class="passion-img" src="./icons/m8.jpg" style="width:100%">
+            <img class="passion-img" src="./icons/m9.jpg" style="width:100%">
+            <img class="passion-img" src="./icons/m10.jpg" style="width:100%">
+            </div>
+            <div class="passion-column">
+            <img class="passion-img" src="./icons/m11.jpg" style="width:100%">
+            <img class="passion-img" src="./icons/m12.jpg" style="width:100%">
+            <img class="passion-img" src="./icons/m13.jpg" style="width:100%">
+            <img class="passion-img" src="./icons/m14.jpg" style="width:100%">
+            </div>
+            </div>
 
-        </section> -->
+
+        </section>
 
         <section class="section" id="contact">
             <center>
             <div class="text-head animated delay fadeinup"><b></b><br>Reach me out at<br></div>
            
                 <div class="highlight_text">
-                        <br><br>lkshtsetia098@gmail.com<br><br>
+                        <br><br>
+                        <a  style="color: grey !important;" href="mailto: lkshtsetia098@gmail.com">lkshtsetia098@gmail.com</a><br><br>
                 </div>
                 <div class="text">Also, I socialise on<br><br></div>
                 <div>
