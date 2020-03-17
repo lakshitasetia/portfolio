@@ -22,7 +22,7 @@ a {
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
-    z-index: 3;
+    z-index: 1;
   }
   
   .header ul {
@@ -130,7 +130,7 @@ a {
   
   /* 48em = 768px */
   
-  @media (min-width: 48em) {
+  @media (min-width:481px) {
     .header li {
       float: left;
       color: #ff8581;
@@ -162,9 +162,14 @@ a {
     height: 100%;
 }
 
-.show_desktop{
+
+@media(max-width: 480px)
+{
+  .show_desktop{
     display: contents;
+  }
 }
+
 
 .resume_button{
     display: flex;
