@@ -188,6 +188,14 @@ a {
     
 }
 
+@media(min-width:480px)
+{
+  #about{
+    height: 200px;
+  }
+}
+
+
 .section-dark{
     background-color: #1a252f;
     margin-top: 10px;
