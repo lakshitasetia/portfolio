@@ -179,6 +179,7 @@ a {
 .section{
     margin-top: 10px;
     padding: 10px;
+    height: 200px;
 }
 
 .section-dark{
@@ -764,9 +765,9 @@ input:checked ~ .tab-content {
   
   /* Create four equal columns that sits next to each other */
   .passion-column {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
+    -ms-flex: 32%; /* IE10 */
+    flex: 32%;
+    max-width: 32%;
     padding: 0 4px;
   }
   
