@@ -517,6 +517,14 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     background-image: url(./icons/new\ relic.png);
 }
 
+.sprite.sprite-postman{
+
+  width: 40px;
+    height: 40px;
+    margin: 5px auto;
+    background-image: url(./icons/postman.png);
+}
+
 .sprite.sprite-springBoot{
 
   width: 40px;
