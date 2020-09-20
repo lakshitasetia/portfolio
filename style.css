@@ -412,12 +412,12 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     
 }
 
-.sprite.sprite-vuejs {
+.sprite.sprite-reactjs {
    
     width: 40px;
     height: 40px;
     margin: 5px auto;
-    background-image: url(./icons/vuejs.jpg);
+    background-image: url(./icons/reactjs.png);
     
 }
 
@@ -499,6 +499,30 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     height: 40px;
     margin: 5px auto;
     background-image: url(./icons/neo4j.png);
+}
+
+.sprite.sprite-jmeter{
+
+  width: 40px;
+    height: 40px;
+    margin: 5px auto;
+    background-image: url(./icons/jmeter.jpg);
+}
+
+.sprite.sprite-newRelic{
+
+  width: 40px;
+    height: 40px;
+    margin: 5px auto;
+    background-image: url(./icons/new\ relic.png);
+}
+
+.sprite.sprite-springBoot{
+
+  width: 40px;
+    height: 40px;
+    margin: 5px auto;
+    background-image: url(./icons/spring\ boot.png);
 }
 
 .icontext{
