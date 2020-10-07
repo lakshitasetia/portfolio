@@ -24,6 +24,8 @@
        <img class="home_img show" src="./icons/home.jpg">
        <img class="home_img show_desktop" src="./icons/front_m.jpg">
 
+       <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up" style="font-size:30px;"></i></button>
+
        <section class="text section" id="about">
             <div><img class="img_about" src="./icons/profile.JPG"></div>
             <div class="text">I am a tech enthusiast working at Fidelity International as a Graduate Programmer, and 
@@ -358,7 +360,7 @@
 
         <section class="section" id="contact">
             <center>
-            <div class="text-head animated delay fadeinup"><b></b><br>Reach out to me at<br></div>
+            <div class="text-head animated delay fadeinup"><b></b><br>Connect with me at<br></div>
            
                 <div class="highlight_text">
                         <br><br>
@@ -374,6 +376,30 @@
                         
             </center>
         </section>
+
+<script>
+
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+
+</script>
     </body>
     <script src="app.js"></script>
     <script src="script.js"></script>
