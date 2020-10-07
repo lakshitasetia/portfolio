@@ -525,6 +525,14 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     background-image: url(./icons/postman.png);
 }
 
+.sprite.sprite-powerBI{
+
+  width: 40px;
+    height: 40px;
+    margin: 5px auto;
+    background-image: url(./icons/PowerBI.jpg);
+}
+
 .sprite.sprite-springBoot{
 
   width: 40px;
